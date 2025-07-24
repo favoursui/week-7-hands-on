@@ -10,3 +10,40 @@ genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary"
 
 → Modify the list and display the required results.
 """
+
+genres = ["Adventure", "Comedy", "Animation", "Fantasy", "Sci-Fi", "Documentary", "Fantasy"]
+print (genres)
+
+genres.append("drama")
+print (genres)
+
+genres.remove(genres[3])
+print (genres)
+
+genres_number = len(genres)
+print (f"there are {genres_number} genres")
+
+verify = genres[-1] 
+verify1 = genres[-2]
+
+print (verify, verify1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

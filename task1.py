@@ -24,12 +24,13 @@ print (meals)
 meals.remove(meals[2])
 print (meals)
 
-mid_meal = len(meals)/2
+mid_meal = len(meals)//2
 print(mid_meal)
 
-alpha_order = meals.sort()g
+alpha_order = sorted(meals)
 print (alpha_order)
-
+alpha_order = meals.sort()
+print (alpha_order)
 
 
 
