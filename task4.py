@@ -10,3 +10,44 @@
     4. Find and display the total number of courses the student is now registered for.
     5. The student wants to know what their 3rd course in the list is.
 """
+courses = ["MTH 101", "PHY 101", "CHM 101", "CSC 101", "GST 101"]
+print (courses)
+
+courses.insert(0, "english 101")
+print (courses)
+
+courses.remove(courses[-1])
+print (courses)
+
+courses.insert(4, "bio 101")
+print (courses)
+
+total = len(courses)
+print (f"student is registered for {total} courses")
+
+print (courses[2])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
